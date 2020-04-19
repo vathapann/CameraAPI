@@ -101,7 +101,7 @@ private File getImageFile() throws IOException {
  */
 
     public void showImage(View view) {
-        String name = "sovatha";
+        
     Intent intent = new Intent(this, displayImage.class);
     intent.putExtra("image_path", currentImagePath);
     startActivity(intent);
